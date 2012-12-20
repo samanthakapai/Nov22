@@ -12,12 +12,17 @@
 		A316F4F6168163CD0090420D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316F4F5168163CD0090420D /* CoreGraphics.framework */; };
 		A316F4FC168163CD0090420D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A316F4FA168163CD0090420D /* InfoPlist.strings */; };
 		A316F4FE168163CD0090420D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F4FD168163CD0090420D /* main.m */; };
-		A316F502168163CD0090420D /* Nov22AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F501168163CD0090420D /* Nov22AppDelegate.m */; };
 		A316F50A168163CE0090420D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316F509168163CE0090420D /* SenTestingKit.framework */; };
 		A316F50B168163CE0090420D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316F4F1168163CD0090420D /* UIKit.framework */; };
 		A316F50C168163CE0090420D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316F4F3168163CD0090420D /* Foundation.framework */; };
 		A316F514168163CE0090420D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A316F512168163CE0090420D /* InfoPlist.strings */; };
 		A316F517168163CE0090420D /* Nov22Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F516168163CE0090420D /* Nov22Tests.m */; };
+		A316F522168164530090420D /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F521168164530090420D /* View.m */; };
+		A316F524168165810090420D /* sneeze.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A316F523168165810090420D /* sneeze.m4v */; };
+		A316F5251681680F0090420D /* Nov22AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A316F501168163CD0090420D /* Nov22AppDelegate.m */; };
+		A316F527168169A40090420D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316F526168169A40090420D /* MediaPlayer.framework */; };
+		A316F52916816E350090420D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316F52816816E350090420D /* AVFoundation.framework */; };
+		A3EE29471682CA2E0061CFF5 /* sample_iPod.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A3EE29461682CA2E0061CFF5 /* sample_iPod.m4v */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +44,20 @@
 		A316F4FB168163CD0090420D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A316F4FD168163CD0090420D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A316F4FF168163CD0090420D /* Nov22-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nov22-Prefix.pch"; sourceTree = "<group>"; };
-		A316F500168163CD0090420D /* Nov22AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov22AppDelegate.h; sourceTree = "<group>"; };
-		A316F501168163CD0090420D /* Nov22AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov22AppDelegate.m; sourceTree = "<group>"; };
+		A316F500168163CD0090420D /* Nov22AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nov22AppDelegate.h; sourceTree = "<group>"; };
+		A316F501168163CD0090420D /* Nov22AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nov22AppDelegate.m; sourceTree = "<group>"; };
 		A316F508168163CE0090420D /* Nov22Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nov22Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A316F509168163CE0090420D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A316F511168163CE0090420D /* Nov22Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov22Tests-Info.plist"; sourceTree = "<group>"; };
 		A316F513168163CE0090420D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A316F515168163CE0090420D /* Nov22Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov22Tests.h; sourceTree = "<group>"; };
 		A316F516168163CE0090420D /* Nov22Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov22Tests.m; sourceTree = "<group>"; };
+		A316F520168164420090420D /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		A316F521168164530090420D /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		A316F523168165810090420D /* sneeze.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sneeze.m4v; sourceTree = "<group>"; };
+		A316F526168169A40090420D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A316F52816816E350090420D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A3EE29461682CA2E0061CFF5 /* sample_iPod.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample_iPod.m4v; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A316F52916816E350090420D /* AVFoundation.framework in Frameworks */,
+				A316F527168169A40090420D /* MediaPlayer.framework in Frameworks */,
 				A316F4F2168163CD0090420D /* UIKit.framework in Frameworks */,
 				A316F4F4168163CD0090420D /* Foundation.framework in Frameworks */,
 				A316F4F6168163CD0090420D /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +89,8 @@
 		A316F4E2168163CD0090420D = {
 			isa = PBXGroup;
 			children = (
+				A316F52816816E350090420D /* AVFoundation.framework */,
+				A316F526168169A40090420D /* MediaPlayer.framework */,
 				A316F4F7168163CD0090420D /* Nov22 */,
 				A316F50F168163CE0090420D /* Nov22Tests */,
 				A316F4F0168163CD0090420D /* Frameworks */,
@@ -109,6 +124,8 @@
 				A316F500168163CD0090420D /* Nov22AppDelegate.h */,
 				A316F501168163CD0090420D /* Nov22AppDelegate.m */,
 				A316F4F8168163CD0090420D /* Supporting Files */,
+				A316F520168164420090420D /* View.h */,
+				A316F521168164530090420D /* View.m */,
 			);
 			path = Nov22;
 			sourceTree = "<group>";
@@ -118,6 +135,8 @@
 			children = (
 				A316F4F9168163CD0090420D /* Nov22-Info.plist */,
 				A316F4FA168163CD0090420D /* InfoPlist.strings */,
+				A316F523168165810090420D /* sneeze.m4v */,
+				A3EE29461682CA2E0061CFF5 /* sample_iPod.m4v */,
 				A316F4FD168163CD0090420D /* main.m */,
 				A316F4FF168163CD0090420D /* Nov22-Prefix.pch */,
 			);
@@ -216,6 +235,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A316F4FC168163CD0090420D /* InfoPlist.strings in Resources */,
+				A316F524168165810090420D /* sneeze.m4v in Resources */,
+				A3EE29471682CA2E0061CFF5 /* sample_iPod.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A316F4FE168163CD0090420D /* main.m in Sources */,
-				A316F502168163CD0090420D /* Nov22AppDelegate.m in Sources */,
+				A316F522168164530090420D /* View.m in Sources */,
+				A316F5251681680F0090420D /* Nov22AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +439,7 @@
 				A316F51C168163CE0090420D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A316F51D168163CE0090420D /* Build configuration list for PBXNativeTarget "Nov22Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +448,7 @@
 				A316F51F168163CE0090420D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

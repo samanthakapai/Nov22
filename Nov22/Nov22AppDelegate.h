@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>	//needed for MPMoviePlayerController
+#import <AVFoundation/AVFoundation.h>
+@class View;
 
-@interface Nov22AppDelegate : UIResponder <UIApplicationDelegate>
+@interface Nov22AppDelegate: UIResponder <UIApplicationDelegate> {
+    MPMoviePlayerController *controller;
+	View *view;
+	UIWindow *_window;
+    UILabel *label;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
 @end
